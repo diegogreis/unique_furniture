@@ -1,0 +1,64 @@
+/* reset */
+* {
+ margin: 0;
+}
+
+/* main */
+body, main {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+main {
+width: 592px;
+height: 100vh;
+
+}
+#hero img {
+  margin-bottom: 72px;;
+}
+
+main h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+main span, a {
+  color: #FF9900;
+}
+
+p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+
+/* footer */
+footer {
+  margin-top: 72px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.line {
+  width: 568px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+footer a + a {
+  margin-left: 24px;
+}
+
+/* button dots */
+#dots {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
